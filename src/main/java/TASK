@@ -10,3 +10,7 @@
                    -id ile öğrenci silme
            işlemlerini yapabilmeli.
          -3-öğrenci:id,name,lastname,city,age özelliklerine sahiptir.
+
+ ÖDEVV:öğrenci silme işleminden sonra silinen öğrencinin bilgilerini gösterelim.
+     ÖDEVV:öğrenci ekleme işleminden sonra eklenen öğrencinin bilgilerini gösterelim.
+     ÖDEVV: -R: ad-soyad ile öğrenci filtreleme işlemlerini yapabilmeli.

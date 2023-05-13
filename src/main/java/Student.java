@@ -1,16 +1,20 @@
 public class Student {
     private int id;
     private String name;
-    private String surname;
+    private String lastname;
     private String city;
     private int age;
 
-    public Student(String name, String surname, String city, int age) {
+    public Student(String name, String lastname, String city, int age) {
         this.id = id;
         this.name = name;
-        this.surname = surname;
+        this.lastname = lastname;
         this.city = city;
         this.age = age;
+    }
+
+    public Student() {
+
     }
 
     @Override
@@ -18,7 +22,7 @@ public class Student {
         return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                ", surname='" + lastname + '\'' +
                 ", city='" + city + '\'' +
                 ", age=" + age +
                 '}';
@@ -32,8 +36,8 @@ public class Student {
         return name;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getLastname() {
+        return lastname;
     }
 
     public String getCity() {
@@ -42,5 +46,25 @@ public class Student {
 
     public int getAge() {
         return age;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
